@@ -1,0 +1,53 @@
+# Core Python utilities
+numpy
+pandas
+streamlit
+
+# Machine Learning & Deep Learning frameworks
+scikit-learn
+
+
+# Data visualization
+matplotlib
+seaborn
+plotly
+
+# Natural Language Processing (optional)
+nltk
+
+# Jupyter / development tools
+jupyter
+ipykernel
+
+# For working with PDFs, text, or documents (if needed)
+pdfplumber
+python-docx
+PyPDF2
+
+# Optional: Web/API frameworks (if deploying model)
+fastapi
+uvicorn
+
+## LangChain and related packages
+
+# LangGraph Core
+langgraph
+
+# LangChain Core
+langchain
+langchain-core
+
+# Groq
+langchain_groq
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+
+# Environment Variable Management
+python-dotenv
+
+# UI
+streamlit
+
+python-multipart
+pymongo
