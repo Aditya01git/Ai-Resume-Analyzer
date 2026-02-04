@@ -1,0 +1,12 @@
+npm install tailwindcss @tailwindcss/vite
+npm install axios
+npm install -D tw-animate-css
+npm install clsx tailwind-merge pdfjs-dist zustand
+npm i react-router-dom
+npm install lucide-react
+
+Cloudflared : Localhost Connectivity
+
+winget install --id Cloudflare.cloudflared
+cloudflared --version
+cloudflared tunnel --url http://localhost:5173
