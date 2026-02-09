@@ -188,7 +188,7 @@ def get_all_documents(username: str):
         total_valid_documents = 0
         if len(documents) == 0:
             print(f"⚠️ No documents found for user {username}.")
-            return [], 0, 0
+            return [], 0, 0 ,0
 
         avg_ats_score = 0
         curr_score = 0

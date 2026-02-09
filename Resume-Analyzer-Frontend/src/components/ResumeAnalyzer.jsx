@@ -134,7 +134,7 @@ const ResumeAnalyzer = () => {
       formData.append('job_description', jobDescription);
       formData.append('user_name', 'xyz');
 
-      const res = await fetch('http://127.0.0.1:8000/upload_resume', {
+      const res = await fetch('https://ai-resume-analyzer-9yya.onrender.com/upload_resume', {
         method: 'POST',
         body: formData
       });
@@ -207,7 +207,7 @@ const ResumeAnalyzer = () => {
       const reportFileId = apiResponse.resume_report_id; 
 
       // 2. Build the URL
-      const downloadUrl = `http://127.0.0.1:8000/download_reportfile/${reportFileId}`;
+      const downloadUrl = `https://ai-resume-analyzer-9yya.onrender.com/download_reportfile/${reportFileId}`;
 
       // 3. Fetch the data
       const response = await fetch(downloadUrl);
