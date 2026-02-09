@@ -234,7 +234,7 @@ This project is open source and available for educational purposes.
 ## 👨‍💻 Author
 
 **Adiya Singh**
-- GitHub: [@AnujRawat1](https://github.com/Aditya01git)
+- GitHub: [@AdityaSingh](https://github.com/Aditya01git)
 
 ## 🙏 Acknowledgments
 
