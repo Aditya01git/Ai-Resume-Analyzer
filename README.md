@@ -233,8 +233,8 @@ This project is open source and available for educational purposes.
 
 ## 👨‍💻 Author
 
-**Anuj Rawat**
-- GitHub: [@AnujRawat1](https://github.com/AnujRawat1)
+**Adiya Singh**
+- GitHub: [@AnujRawat1](https://github.com/Aditya01git)
 
 ## 🙏 Acknowledgments
 
