@@ -15,8 +15,12 @@ import {
   Brain,
   Search
 } from 'lucide-react';
+import { useAuth } from "../components/AuthProvider";
 
 const ResumeAnalyzer = () => {
+
+  const { user } = useAuth();// for user in reports
+
   const [file, setFile] = useState(null);
   const [jobDescription, setJobDescription] = useState('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
@@ -132,7 +136,7 @@ const ResumeAnalyzer = () => {
       const formData = new FormData();
       formData.append('uploaded_file', file);
       formData.append('job_description', jobDescription);
-      formData.append('user_name', 'xyz');
+      formData.append('user_name', user.displayName);
 
       const res = await fetch('https://ai-resume-analyzer-9yya.onrender.com/upload_resume', {
         method: 'POST',
