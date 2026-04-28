@@ -166,7 +166,8 @@ const Dashboard = () => {
 
                 <tbody className="bg-white divide-y divide-gray-200">
                   {recentAnalyses
-                    .sort((a, b) => new Date(b.date) - new Date(a.date))
+                    .slice()
+                    .reverse()
                     .slice(0, 5)
                     .map((analysis) => (
                       <tr key={analysis.id} className="hover:bg-gray-50">
