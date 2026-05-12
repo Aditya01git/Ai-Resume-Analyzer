@@ -36,7 +36,9 @@ const Dashboard = () => {
         setAvgScore(data.Avg_ATS_Score);
         setScoreChange(data.Overall_Score_Change);
 
-        const formatted = data.documents.map((doc, index) => ({
+        const formatted = data.documents
+        .filter((doc) => doc.resume_report_id !== null)
+        .map((doc, index) => ({
           id: index,
           fileName: doc.resume_file_name,
           score: doc.data.overall_score,
