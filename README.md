@@ -2,7 +2,7 @@
 
 An intelligent resume analysis tool powered by AI that evaluates resumes, provides ATS scores, identifies job categories, and offers actionable feedback to improve your resume.
 
-🌐 **Frontend:** https://your-project.vercel.app
+🌐 **Frontend:** https://ai-resume-analyzer-eight-amber.vercel.app
 
 ⚙️ **Backend:** https://ai-resume-analyzer-9yya.onrender.com
 
