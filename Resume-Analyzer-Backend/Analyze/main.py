@@ -21,7 +21,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",   # React local dev
     "http://127.0.0.1:3000",
-    "https://yourfrontenddomain.com",  # production domain
+    "https://ai-resume-analyzer-eight-amber.vercel.app",  # production domain aditya
     "https://ai-resume-analyzer-vgzc.vercel.app",
 ]
 
